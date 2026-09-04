@@ -1,6 +1,28 @@
 package org.example;
 
-public class Converter {
+public class Converter {    
+  int ounces;
+
+  System.out.println("How Many ounces do you have?");
+  int pounds = console.readLine
+
+  pounds = ounces/16;
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   // Write the code needed to make the tests in
   // TestConverter.java pass. I have provided the
   // tests for you in this lab to give you an example
