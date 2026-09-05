@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class App {
   public static void main(String[] args) {
-    System.out.println("Welcome to the Ounce Conversion Program!");
+    System.out.println("Welcome to the Ounce Conversion Program!\n");
     System.out.println("How many ounces do you have?");
 
     Scanner console = new Scanner(System.in);
@@ -15,7 +15,8 @@ public class App {
 
     System.out.println("Thank you, converting ounces to pounds...");
 
-    System.out.println(ounces + " oz is equivalent to " + pounds);
+    System.out.println(ounces + " oz is equivalent to " + converter.toPoundsAndOunces(ounces) + " lbs");
+    System.out.println(ounces + " oz is equivalent to " + converter.toPounds(ounces) + " lbs");
 
 
   }
