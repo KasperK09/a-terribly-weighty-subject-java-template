@@ -2,15 +2,17 @@ package org.example;
 
 public class Converter {    
 
-  public double toPounds(int ounces) {
+  public String toPounds(int ounces) {
     double pounds = ounces / 16.0;
 
-    return pounds;
+                    //this makes sure it always has 4 decimal places
+    return String.format("%.4f lbs", pounds);
   }
 
-  public double toPoundsAndOunces(int ounces) {
+  public String toPoundsAndOunces(int ounces) {
+    int pounds = ounces / 16;
     int remaingOunces = ounces % 16;
 
-    return remaingOunces;
+    return pounds + " lbs " + remaingOunces + " oz";
   }
 }

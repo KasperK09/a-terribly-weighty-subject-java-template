@@ -15,9 +15,11 @@ public class App {
 
     System.out.println("Thank you, converting ounces to pounds...");
 
-    System.out.println(ounces + " oz is equivalent to " + converter.toPoundsAndOunces(ounces) + " lbs");
-    System.out.println(ounces + " oz is equivalent to " + converter.toPounds(ounces) + " lbs");
+    System.out.println(ounces + " oz is equivalent to " + converter.toPoundsAndOunces(ounces));
+    System.out.println(ounces + " oz is equivalent to " + converter.toPounds(ounces));
 
+    System.out.println("Thank you for using the OCP!");
 
+    console.close();
   }
 }
